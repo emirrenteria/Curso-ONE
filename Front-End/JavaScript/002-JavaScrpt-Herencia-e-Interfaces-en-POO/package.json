@@ -1,0 +1,12 @@
+{
+  "name": "java-orientada-objetos",
+  "version": "1.0.0",
+  "description": "el uso de la programacion orientada a objetos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emir Renteria Alegria",
+  "license": "ISC",
+  "type": "module"
+}

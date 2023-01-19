@@ -1,0 +1,47 @@
+<meta charsef="UTF-8">
+
+<h1> Programa juego de adivinacion</h1>
+
+<script>
+
+    function saltarLinea(){
+
+    	document.write("<br>");
+    	document.write("<br>");
+    	document.write("<br>");
+    }
+
+
+    function imprimir(frase){
+
+    	document.write(frase);
+    	saltarLinea();
+    }
+
+    var inicioDeSesionRegistrado = "alura";
+    var contrasenhaRegistrada = "alura321";
+    var intentos = 3;
+    var contador = 1;
+
+    while(contador <= intentos){
+
+      var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+      var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+      if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+
+          alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+          break;
+
+      } else {
+
+          alert("inicio de sesión inválido. Favor intente de nuevo");
+      }
+
+      contador++;
+
+    }
+
+    
+
+  </script>

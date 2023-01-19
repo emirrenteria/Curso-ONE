@@ -1,0 +1,65 @@
+<meta charsef="UTF-8">
+
+<script>
+
+	/*
+    function saltarLinea(){
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarLinea();
+	}
+
+	function calcularImc(peso1, altura1, nombre1, peso2, altura2, nombre2){
+
+		var imc1 = peso1 / (altura1 * altura1);
+	    var imc2 = peso2 / (altura2 * altura2);
+
+
+		imprimir("El promedio del imc calculado de  " + nombre1 + " y " + nombre2 + " es: " + (imc1+imc2)/2);
+
+	}
+    
+    calcularImc(73, 1.72, "Emir", 80, 1.45, "Claudia");
+
+    */
+
+
+    function saltarLinea(){
+
+    	document.write("<br>");
+    	document.write("<br>");
+    	document.write("<br>");
+    }
+
+
+    function imprimir(frase){
+
+    	document.write(frase);
+    	saltarLinea();
+    }
+
+
+    function calcularImc(peso, altura){
+
+    	return (peso / (altura * altura));
+    }
+    
+    var nombre = prompt("Informe su Nombre: ");
+    var pesoInformado = prompt(nombre + " Informe su Peso: ");
+    var alturaInformado = prompt(nombre + " Informe su Altura: ");
+
+    var calculadoImc = calcularImc(pesoInformado, alturaInformado);
+
+
+    imprimir(nombre + " Su IMC es de: " + calculadoImc);
+
+	
+  </script>

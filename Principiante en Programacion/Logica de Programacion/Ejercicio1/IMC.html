@@ -1,0 +1,65 @@
+<meta charset="UTF-8">
+
+<h1> CALCULAR IMC </h1>
+
+<script>
+	
+/*
+	function saltarLinea(){
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarLinea();
+	}
+
+	function calcularImc(peso, altura){
+
+		var imc = peso / (altura * altura);
+		return (imc);
+
+	}
+
+	var pesoEmir = 72;
+	var alturaEmir = 1.73;
+	
+	var imcEmir = calcularImc(pesoEmir, alturaEmir);
+	imprimir("El imc de Emir es: " + imcEmir);
+
+
+*/
+
+function saltarLinea(){
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarLinea();
+	}
+
+	function calcularImc(peso, altura, nombre){
+
+		var imc = peso / (altura * altura);
+		imprimir("el imc de " + nombre + " es: " + imc);
+
+	}
+
+    
+    calcularImc(73, 1.72, "Emir");
+    calcularImc(78, 1.60, "Claudia");
+
+
+
+</script>

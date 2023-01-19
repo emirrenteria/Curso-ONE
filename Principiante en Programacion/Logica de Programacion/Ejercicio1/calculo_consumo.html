@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+<h3> ¿Alcohol o Gasolina? </h3>
+
+<script>
+	
+	function saltarLinea(){
+
+		document.write("<br><br><br>");
+	}
+
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarLinea();
+	}
+
+	imprimir("hola amigos");
+
+    // Este codigo calcula el consumo de gasolina y alcohol por distancia.
+
+
+	var capacidadLitros = 40;
+	var distancia1 = 480;
+	var distancia2 = 300;
+
+	var consumoGasolina = capacidadLitros/distancia1;
+	var consumoAlcohol = capacidadLitros/distancia2;
+
+	imprimir("El consumo de gasolina es de " + consumoGasolina);
+	imprimir("El consumo de alcohol es de " + consumoAlcohol);
+
+</script>
+
